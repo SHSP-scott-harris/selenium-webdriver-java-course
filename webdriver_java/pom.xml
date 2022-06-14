@@ -14,7 +14,7 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.0</version>
                 <configuration>
-                    <release>18</release>
+                    <release>17</release>
                 </configuration>
             </plugin>
         </plugins>
@@ -31,8 +31,7 @@
             <artifactId>selenium-support</artifactId>
             <version>3.141.59</version>
         </dependency>
-
-
+        
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
