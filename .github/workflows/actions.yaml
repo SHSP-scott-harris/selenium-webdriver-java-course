@@ -27,4 +27,4 @@ jobs:
         run: mvn test
       - name: Collect Build Data
         if: always()
-        run: expr $(date +%s)-${START_TIME}
+        run: expr $(date +%s) - ${START_TIME}
